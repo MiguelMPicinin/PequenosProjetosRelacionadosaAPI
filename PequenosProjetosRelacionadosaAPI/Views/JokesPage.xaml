@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PequenosProjetosRelacionadosaAPI.Views.JokesPage"
+             Title="JokesPage">
+    <VerticalStackLayout Spacing="15" Padding="20">
+        <Button Text="Piada Aleatória" Clicked="OnRandomJokeClicked" />
+        <Button Text="Todas as Piadas" Clicked="OnAllJokesClicked" />
+        <Button Text="Contar Piadas" Clicked="OnCountJokesClicked" />
+        <ActivityIndicator x:Name="LoadingIndicator" IsRunning="False" IsVisible="False" />
+        <ScrollView>
+            <VerticalStackLayout x:Name="ResultLayout" Spacing="10" />
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

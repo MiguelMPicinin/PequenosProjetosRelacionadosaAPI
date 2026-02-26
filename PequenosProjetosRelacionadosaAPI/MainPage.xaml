@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PequenosProjetosRelacionadosaAPI.MainPage"
+             Title="Game App">
+    <VerticalStackLayout Spacing="20" Padding="30" VerticalOptions="Center">
+        <Label Text="Game Info App"
+               FontSize="24"
+               HorizontalOptions="Center" />
+        <Button Text="Pokémon" Clicked="OnPokemonClicked" />
+        <Button Text="Jogos (RAWG)" Clicked="OnRAWGClicked" />
+        <Button Text="Quiz" Clicked="OnQuizClicked" />
+        <Button Text="Piadas" Clicked="OnJokesClicked" />
+        <Button Text="Conversor de Moedas" Clicked="OnCurrencyClicked" />
+    </VerticalStackLayout>
+</ContentPage>
